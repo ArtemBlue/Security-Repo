@@ -7,8 +7,9 @@
 ### Safesearch Setup (Optional) - Used mostly for families
 ##### https://www.reddit.com/r/pihole/comments/82h77r/google_safesearch/
 # 
-### REGEX
+### REGEX Lists
 ##### https://www.reddit.com/r/pihole/comments/b3fj60/regex_megathread/
+# 
 # File Locations
 - /etc/pihole/adlists.list (Blocklist Used for Gravity)
 - /etc/pihole/regex.list  (Regex list Used for Algorithmic Blacklisting)
@@ -17,11 +18,12 @@
 ##### https://docs.pi-hole.net/core/pihole-command/  
 # 
 ### Cheat Sheet  
-* [Whitelist]  - Single or Multiple Addresses seperated by space		
+* [Whitelist]  - Single or Multiple Addresses seperated by space
 `pihole -w domainaddress1.com domainaddress2.com`
 * [Restart dnsmasq/FTL] - Restart Service if changes made directly *may take a couple minutes*.
 `sudo service pihole-FTL restart`
-* [Status DNSMasq/FTL] - Check Status `sudo service pihole-FTL status`
+* [Status DNSMasq/FTL] - Check Status 
+`sudo service pihole-FTL status`
 
 ### Commonly Used
 * Edit Whitelist	
