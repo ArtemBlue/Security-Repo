@@ -1,14 +1,39 @@
-# PiHole Setup
-- Multiple Sources
-# Setup Links
+# PiHole Setup 
 ### Get Started Here
 1) https://www.smarthomebeginner.com/pi-hole-tutorial-whole-home-ad-blocking/
 2) https://bendews.com/posts/implement-dns-over-https/
+### Gravity/Blocklist Sources
+##### [The Big Blocklist Collection](https://firebog.net/)
+# 
+##### How to Add with Terminal/Shell
+#
+```
+1) 
+2)
+```
+##### How to Add with Web Console
+#
+```
+1) 
+2)
+```
+### REGEX Sources
+##### [Reddit REGEX Megathread](https://www.reddit.com/r/pihole/comments/b3fj60/regex_megathread/)
+#
+##### How to Add with Terminal/Shell
+#
+```
+1) 
+2)
+```
+##### How to Add with Web Console
+#
+```
+1) 
+2)
+```
 ### Safesearch Setup (Optional) - Used mostly for families
 ##### https://www.reddit.com/r/pihole/comments/82h77r/google_safesearch/
-# 
-### REGEX Lists
-##### https://www.reddit.com/r/pihole/comments/b3fj60/regex_megathread/
 # 
 # File Locations
 - /etc/pihole/adlists.list (Blocklist Used for Gravity)
@@ -18,19 +43,19 @@
 ##### https://docs.pi-hole.net/core/pihole-command/  
 # 
 ### Cheat Sheet  
-* [Whitelist]  - Single or Multiple Addresses seperated by space
+[Whitelist]  - Single or Multiple Addresses seperated by space
 `pihole -w domainaddress1.com domainaddress2.com`
-* [Restart dnsmasq/FTL] - Restart Service if changes made directly *may take a couple minutes*.
+[Restart dnsmasq/FTL] - Restart Service if changes made directly *may take a couple minutes*.
 `sudo service pihole-FTL restart`
-* [Status DNSMasq/FTL] - Check Status 
+[Status DNSMasq/FTL] - Check Status 
 `sudo service pihole-FTL status`
 
 ### Commonly Used
-* Edit Whitelist	
+Edit Blocklist	
 `sudo nano /etc/pihole/adlists.list`
-* Edit Regex 
-`sudo nano /etc/pihole/regex.list`
-* Restart FTL
+Edit Regex 
+`sudo nano /etc/pihole/regex.list `
+Restart FTL
 `sudo service pihole-FTL restart`
 
 # Connect Tests
@@ -38,3 +63,7 @@
 -  https://www.cloudflare.com/ssl/encrypted-sni/
 -  https://1.1.1.1/help
 
+# Credits
+``` 
+Multiple Sources 
+```
