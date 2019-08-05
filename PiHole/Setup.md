@@ -15,21 +15,16 @@
 2) Placeholder
 ```
 <details>
-  <summary>Spoiler warning</summary>
-  
-  Spoiler text. Note that it's important to have a space after the summary tag. You should be able to write any markdown you want inside the `<details>` tag... just make sure you close `<details>` afterward.
-  
-  ```javascript
-  console.log("I'm a code block!");
-  ```
+  <summary>Ref.1</summary>
+Placerholder
 </details>
 
 
 ##### How to Add with Web Console
 #
 ```
-1) 
-2)
+1) Placeholder
+2) Placeholder
 ```
 ### REGEX Sources
 ##### Lists to get you started;
