@@ -52,10 +52,13 @@
 
 ### Commonly Used
 Edit Blocklist	
+
 `sudo nano /etc/pihole/adlists.list`
 Edit Regex 
+
 `sudo nano /etc/pihole/regex.list `
 Restart FTL
+
 `sudo service pihole-FTL restart`
 
 # Connect Tests
