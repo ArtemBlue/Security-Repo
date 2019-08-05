@@ -14,18 +14,18 @@
 1) Placeholder
 2) Placeholder
 ```
-<details>
-  <summary>Ref.1</summary>
-Placerholder
-</details>
-
-
 ##### How to Add with Web Console
 #
 ```
 1) Placeholder
 2) Placeholder
 ```
+<details>
+  <summary>Ref.1</summary>
+Placerholder
+</details>
+
+
 ### REGEX Sources
 ##### Lists to get you started;
 ##### [Reddit REGEX Megathread](https://www.reddit.com/r/pihole/comments/b3fj60/regex_megathread/)
@@ -33,15 +33,21 @@ Placerholder
 ##### How to Add with Terminal/Shell
 #
 ```
-1) 
-2)
+1) Placeholder
+2) Placeholder
 ```
 ##### How to Add with Web Console
 #
 ```
-1) 
-2)
+1) Placeholder
+2) Placeholder
 ```
+<details>
+  <summary>Ref.1</summary>
+Placerholder
+</details>
+
+
 ### Safesearch Setup (Optional) - Used mostly for families
 ##### https://www.reddit.com/r/pihole/comments/82h77r/google_safesearch/
 # 
