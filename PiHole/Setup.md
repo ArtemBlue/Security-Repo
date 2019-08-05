@@ -3,7 +3,10 @@
 1) https://www.smarthomebeginner.com/pi-hole-tutorial-whole-home-ad-blocking/
 2) https://bendews.com/posts/implement-dns-over-https/
 ### Gravity/Blocklist Sources
+##### Lists to get you started;
 ##### [The Big Blocklist Collection](https://firebog.net/)
+##### [The Best Blocking Lists](https://discourse.pi-hole.net/t/update-the-best-blocking-lists-for-the-pi-hole-alternative-dns-servers-2019/13620)
+##### [CHEF-KOCH's List](https://github.com/CHEF-KOCH/NSABlocklist)
 # 
 ##### How to Add with Terminal/Shell
 #
@@ -18,6 +21,7 @@
 2)
 ```
 ### REGEX Sources
+##### Lists to get you started;
 ##### [Reddit REGEX Megathread](https://www.reddit.com/r/pihole/comments/b3fj60/regex_megathread/)
 #
 ##### How to Add with Terminal/Shell
@@ -51,7 +55,7 @@ pihole -w domainaddress1.com domainaddress2.com
 ```
 sudo service pihole-FTL restart
 ```
-[Status DNSMasq/FTL] - Check Status 
+[Status dnsmasq/FTL] - Check Status 
 ```
 sudo service pihole-FTL status
 ```
