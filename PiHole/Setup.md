@@ -27,11 +27,11 @@
 
 ### Commonly Used
 * Edit Whitelist	
-`sudo nano /etc/pihole/adlists.list`
+```sudo nano /etc/pihole/adlists.list```
 * Edit Regex 
-`sudo nano /etc/pihole/regex.list`
+```sudo nano /etc/pihole/regex.list```
 * Restart FTL
-`sudo service pihole-FTL restart`
+```sudo service pihole-FTL restart```
 
 # Connect Tests
 -  https://en.internet.nl/connection/f32fffe5e9cf4b358ed994f440552a0f/results
