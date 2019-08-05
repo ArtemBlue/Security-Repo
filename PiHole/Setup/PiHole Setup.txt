@@ -3,9 +3,18 @@
 # 
 # Sources - Multiple;
 #############################################################################
+Setup Links;
 1) https://www.smarthomebeginner.com/pi-hole-tutorial-whole-home-ad-blocking/
 2) https://bendews.com/posts/implement-dns-over-https/
-
+#############################################################################
+Location of PiHole Files
+/etc/pihole/
+-  adlists.list
+-  regex.list
+#############################################################################
+Commands
+[Whitelist]: 		pihole -w domainaddress1.com domainaddress2.com
+[Restart DNSMasq/FTL]: 	sudo service pihole-FTL status
 #############################################################################
 #Connect Tests
 # https://en.internet.nl/connection/f32fffe5e9cf4b358ed994f440552a0f/results
