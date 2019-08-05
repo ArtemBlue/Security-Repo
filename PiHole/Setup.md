@@ -44,11 +44,17 @@
 # 
 ### Cheat Sheet  
 [Whitelist]  - Single or Multiple Addresses seperated by space
-`pihole -w domainaddress1.com domainaddress2.com`
+```
+pihole -w domainaddress1.com domainaddress2.com
+```
 [Restart dnsmasq/FTL] - Restart Service if changes made directly *may take a couple minutes*.
-`sudo service pihole-FTL restart`
+```
+sudo service pihole-FTL restart
+```
 [Status DNSMasq/FTL] - Check Status 
-`sudo service pihole-FTL status`
+```
+sudo service pihole-FTL status
+```
 
 ### Commonly Used
 Edit Blocklist	
