@@ -38,7 +38,9 @@ static domain_name_servers=192.168.0.1
 ```
 <details>
   <summary>Ref.1</summary>
-Placerholder
+    <p align="center">
+    <img width="480" height="510" src="https://i.ytimg.com/vi/oHg5SJYRHA0/hqdefault.jpg")">
+    </p>
 </details>
 
 
