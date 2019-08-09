@@ -105,9 +105,7 @@ Edit NameServer
 ```
 sudo nano /etc/resolv.conf 
 ```
-Edit 
-
-DHCP Config File
+Edit DHCP Config File
 ```
 /etc/dhcpcd.conf
 ```
