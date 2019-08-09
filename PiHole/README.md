@@ -2,6 +2,22 @@
 ### Get Started Here
 1) https://www.smarthomebeginner.com/pi-hole-tutorial-whole-home-ad-blocking/
 2) https://bendews.com/posts/implement-dns-over-https/
+### Setup Raspberry Pi IPAddress
+##### https://www.ionos.com/digitalguide/server/configuration/provide-raspberry-pi-with-a-static-ip-address/
+```
+sudo service dhcpcd start
+sudo systemctl enable dhcpcd
+sudo nano /etc/dhcpcd.conf
+--------------------------------------
+DHCP Config File
+--------------------------------------
+interface eth0
+static ip_address=192.168.0.4/24
+static routers=192.168.0.1
+static domain_name_servers=192.168.0.1
+--------------------------------------
+```
+
 ### Gravity/Blocklist Sources
 ##### Lists to get you started;
 ##### [The Big Blocklist Collection](https://firebog.net/)
@@ -84,6 +100,16 @@ sudo nano /etc/pihole/regex.list
 Restart FTL
 ```
 sudo service pihole-FTL restart
+```
+Edit NameServer
+```
+sudo nano /etc/resolv.conf 
+```
+Edit 
+
+DHCP Config File
+```
+/etc/dhcpcd.conf
 ```
 
 # Connect Tests
